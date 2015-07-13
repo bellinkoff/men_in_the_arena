@@ -1,5 +1,5 @@
 ---
 type: "still"
 title: ""
-image: "pride.jpg"
+image: "pride.png"
 ---
