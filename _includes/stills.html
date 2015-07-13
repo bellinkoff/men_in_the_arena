@@ -1,2 +1,21 @@
-<a name="stills"></a>
-<h1 class="page-heading">Stills section</h1>
+<section class="stills row fullWidth">
+	<a class="anchor" name="stills"></a>
+	<div class="row">
+		<div class="large-10 large-offset-1 columns">
+			<h1>STILLS</h1>
+		</div>
+	</div>
+	<div class="gallery">
+		{% assign $i = 1 %}
+		{% for still in site.pages %}
+			{% if still.type == "still" %}
+				<a href="assets/stills/{{still.image}}" data-lightbox="stills_collection" data-title="{{still.title}}">
+					<div class="gallery_item">
+						<img src="assets/stills/{{still.image}}" alt="{{still.title}}"/>
+					</div>
+				</a>
+				{% assign $i = $i | plus: 1 %}
+			{% endif %}
+		{% endfor %}
+	</div>
+</section>
