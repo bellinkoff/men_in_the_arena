@@ -12,7 +12,7 @@ Believe it or not, some of the bigger festivals still like DVD screeners over on
 
 Photo evidence:
 
-![Photo Evidence]({{ site.url }}/assets/package.jpg)
+![Photo Evidence]({{ site.url }}/{{site.baseurl}}/assets/package.jpg)
 
 We're going to ramp up the engagement on social media in the coming weeks, so be sure to follow us. We'll continue to post some updates here too. Up next: an original score, color correction, sound mixing, clip clearances, music clearances....ahh!
 
