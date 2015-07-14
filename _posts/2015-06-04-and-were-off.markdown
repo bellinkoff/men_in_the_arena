@@ -6,9 +6,9 @@ date:   2015-06-04 23:45:03
 
 Hello Everyone,
 
-It's been a minute since we posted an update, but hopefully you're following us on Facebook, Instagram and/or Twitter. Just over two months ago, we posted a photo of the full film edit with a runtime of 95 minutes. Since that post, we've been chipping away at revisions and we finished a new rough cut just in time for some major festival deadlines. 
+It's been a minute since we posted an update, but hopefully you're following us on [Facebook](https://www.facebook.com/meninthearena), [Instagram](https://www.instagram.com/meninthearena) and/or [Twitter](https://www.twitter.com/meninthearena). Just over two months ago, we posted a photo of the full film edit with a runtime of 95 minutes. Since that post, we've been chipping away at revisions and we finished a new rough cut just in time for some major festival deadlines. 
 
-Believe it or not, some of the bigger festivals still like DVD screeners over online submissions. Despite the extra work, it felt very 2001 cool to write, Men In The Arena - Runtime 85 Minutes, on those DVD sleeves. 
+Believe it or not, some of the bigger festivals still like DVD screeners over online submissions. Despite the extra work, it felt very 2001 cool to write, *Men In The Arena - Runtime 85 Minutes*, on those DVD sleeves. 
 
 Photo evidence:
 
