@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-h1, h3, h4, p, .site-nav a {
+h1, h2, h3, h4, p, .site-nav a {
     font-family: 'Gotham-Bold', 'sans-serif';
 }
 
@@ -153,6 +153,10 @@ section {
         position: absolute;
         top: -$top_bar_height;
     }
+
+    h1 {
+        font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    }
 }
 
 /**
@@ -173,7 +177,7 @@ img.bg {
 }
 
 section {
-    h1, h3 {
+    h1, h2, h3 {
         color: $text-color;
     }
     h1 {
@@ -197,6 +201,10 @@ section {
         /*max-height: 600px;*/
     }
 
+    .brian .headshot { /*scales Brian's headshot with that of JR's*/
+        width: 384px;
+    }
+
     /*.hs_jr {
         background: url(/assets/headshots/jr.jpg) no-repeat;
         background-size: cover;
@@ -213,8 +221,19 @@ section {
     background-size: cover;
     text-align: justify;
 
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
     .synopsis {
-        margin: 50px 0px;
+        /*height: 550px;*/
+        display: flex;
+        margin: 100px 0px;
+        h2 {
+            margin: auto;
+            /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
+            /*font-size: 47px;*/
+            font-size: 3rem;
+        }
     }
 }
 
