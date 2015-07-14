@@ -13,3 +13,5 @@ We've made considerable strides over the past several weeks, and we are feeling 
 ![The country that banned football.]({{ site.url }}/{{site.baseurl}}/assets/sadiq_quote.png)
 
 *The country that banned football.*
+
+<!--more-->

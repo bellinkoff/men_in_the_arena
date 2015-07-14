@@ -19,3 +19,5 @@ It's going to be a great week! If you haven't already please join us on [Faceboo
 Sincerely, 
 
 J.R. Biersmith
+
+<!--more-->

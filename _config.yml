@@ -13,3 +13,6 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# Blog
+excerpt_separator: <!--more-->
