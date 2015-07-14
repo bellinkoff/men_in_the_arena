@@ -92,10 +92,14 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
+    /*&:visited {
         color: darken($brand-color, 15%);
-    }
+    }*/
 
+    
+}
+
+.site-header a {
     &:hover {
         border-bottom: 2px solid $hover-color;
     }

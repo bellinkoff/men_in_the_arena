@@ -62,7 +62,6 @@ h1, h3, h4, p, .site-nav a {
         a {
             color: $text-color;
             &:hover {
-                border-bottom: 0px;
                 color: $hover-color;
             }
         }
@@ -233,12 +232,6 @@ section {
         align-content: flex-start;
         align-items: flex-start;
 
-        a {
-            &:hover {
-                  border-bottom: 0px;
-            }
-        }
-
         .gallery_item {
             max-width: 400px;
             max-height: 200px;
@@ -351,7 +344,7 @@ section {
 
 .post-link {
     display: block;
-    font-size: 24px;
+    /*font-size: 24px;*/
 }
 
 
