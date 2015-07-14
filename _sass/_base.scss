@@ -97,8 +97,7 @@ a {
     }
 
     &:hover {
-        border-bottom: 2px solid $underline-hover-color;
-        /*text-decoration: underline;*/
+        border-bottom: 2px solid $hover-color;
     }
 }
 
