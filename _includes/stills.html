@@ -9,7 +9,7 @@
 		{% assign $i = 1 %}
 		{% for still in site.pages %}
 			{% if still.type == "still" %}
-				<a href="assets/stills/{{still.image}}" data-lightbox="stills_collection" data-title="{{still.title}}">
+				<a href="{{site.baseurl}}/assets/stills/{{still.image}}" data-lightbox="stills_collection" data-title="{{still.title}}">
 					<div class="gallery_item">
 						<img src="assets/stills/{{still.image}}" alt="{{still.title}}"/>
 					</div>
