@@ -3,7 +3,6 @@
 	<div class="row">
 		<div class="large-10 large-offset-1 columns">
 			<h1>STILLS</h1>
-			<p class="large-10 large-offset-1 columns" style="font-size: 20px; color: red;">Awaiting lower res photos from Brian (also for background images to speed things up a bit more). Same dimensions just lesser quality...</p>
 		</div>
 	</div>
 	<div class="gallery">
@@ -12,7 +11,7 @@
 			{% if still.type == "still" %}
 				<a href="{{site.baseurl}}/assets/stills/{{still.image}}" data-lightbox="stills_collection" data-title="{{still.title}}">
 					<div class="gallery_item">
-						<img src="assets/stills/{{still.image}}" alt="{{still.title}}"/>
+						<img src="assets/stills/{{still.thumbnail}}" alt="{{still.title}}"/>
 					</div>
 				</a>
 				{% assign $i = $i | plus: 1 %}
