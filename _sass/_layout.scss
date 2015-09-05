@@ -146,8 +146,9 @@ h1, h2, h3, h4, p, .site-nav a {
 
 section {
     position: relative;
-    padding: 15px 0px;
-    border-bottom: 5px solid white;
+    /*padding: 15px 0px;*/
+    /*border-bottom: 5px solid white;*/
+    border-bottom: 2px solid gray;
     .anchor {
         /*top: $top_bar_height;*/
         position: absolute;
@@ -181,7 +182,17 @@ section {
         color: $text-color;
     }
     h1 {
+        padding: 30px 0px;
         text-align: center;
+    }
+}
+
+.trailer {
+    .row {
+        text-align: center;
+    }
+    .embed {
+        margin-bottom: 45px;
     }
 }
 
@@ -198,13 +209,13 @@ section {
         display: block;
         /*margin: auto;*/
         margin: 15px auto;
-        /*width: 100px;*/
+        width: 250px;
         /*max-height: 600px;*/
     }
 
-    .brian .headshot { /*scales Brian's headshot with that of JR's*/
+    /*.brian .headshot { scales Brian's headshot with that of JR's
         width: 384px;
-    }
+    }*/
 
     /*.hs_jr {
         background: url(/assets/headshots/jr.jpg) no-repeat;
@@ -261,6 +272,21 @@ section {
     }
 }
 
+.contact {
+    text-align: center;
+    .contact_form {
+        padding: 35px;
+        textarea {
+            height: 265px;
+        }
+    }
+}
+
+.sent_message {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 35px;
+}
 
 /**
  * Site footer
