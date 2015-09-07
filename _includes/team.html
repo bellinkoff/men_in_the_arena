@@ -6,33 +6,23 @@
 			<h1>TEAM</h1>
 		</div>
 	</div>
-	<div class="row team_member jr">
-		<div class="large-3 large-offset-1 columns">
-			<!-- <div class="headshot hs_jr"></div> -->
-			<img class="headshot" src="{{site.baseurl}}/assets/headshots/jr.jpg" />
-		</div>
-		<div class="large-7 end columns">
-			<h3>
-				<em>Executive Producer/Director</em><br>
-				J.R. Biersmith
-			</h3>
-			<p>J.R. advises and produces content for a wide variety of clients: from wall street to main street, non-profits to national publications, notable personalities to family stories. Men In The Arena is his first feature length documentary film.</p>
-			<p>J.R. has a M.A. in Broadcast Journalism from the University of Miami and a B.A. in International Business from Bradley University.  He began his journalism career at The Miami Herald.</p>
-		</div>
-	</div>
-	<div class="row team_member brian">
-		<div class="large-3 large-offset-1 columns">
-			<!-- <div class="headshot hs_brian"></div> -->
-			<img class="headshot" src="{{site.baseurl}}/assets/headshots/brian_lo.jpg" />
-		</div>
-		<div class="large-7 end columns">
-			<h3>
-				<em>Executive Producer/Editor</em><br>
-				Brian Bellinkoff
-			</h3>
-			<p>Brian Bellinkoff is the EVP of production at Media Meld Studios, a non-scripted development, production, and management company based in NY and LA. His love for documentary film-making started at the University of Miami where he met J.R. Brian has helped produce two previous feature documentaries, one narrative horror feature, and is currently an executive-producer on the reality show "LogHeads" airing on Great American Country and DIY networks.</p>
-		</div>
-	</div>
-
-		<!-- <div style="width: 16%; display: inline-block;"><h3><img src="/uploads/websites/466/wysiwyg/JNheadshot_bus.jpg" border="0" width="250" height="376" style="width: 90%; height: auto; border: 2px solid black;"></h3></div><div style="display: inline-block; width: 79%; vertical-align: top;"><h3><em>Producer/Impact Producer</em><br>Joanna Natasegara</h3><p class="p1"><span class="s1">Joanna is an award winning producer and impact producer at Violet Films; currently the only company in the UK combining social impact strategy and film production. Violet is an ethical consultancy specialising in bespoke outreach campaigns and maximising the social change potential for film and media projects. Joanna has extensive experience in documentary film having directed and produced documentaries covering social justice and politics and has recently worked on some of the world’s most impactful feature documentaries. Most recently Joanna produced the Academy Award and BAFTA nominated <em>VIRUNGA. </em></span></p><p>&nbsp;</p></div><p>&nbsp;</p> -->
+		{% assign $i = 1 %}
+		{% for member in site.pages %}
+			{% if member.type == "teammember" %}
+				<div class="row team_member">
+					<div class="large-3 large-offset-1 columns">
+						<img class="headshot" src="{{site.baseurl}}/assets/headshots/{{member.headshot}}" />
+					</div>
+					<div class="large-7 end columns">
+						<h3><em>{{member.title}}</em><br />
+							{{member.fullname}}
+						</h3>
+						{% for paragraph in member.bio %}
+							<p>{{paragraph}}</p>
+						{% endfor %}
+					</div>
+				</div>
+				{% assign $i = $i | plus: 1 %}
+			{% endif %}
+		{% endfor %}
 </section>
