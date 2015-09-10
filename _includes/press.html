@@ -9,7 +9,8 @@
 	<div class="row">
 		<div class="large-12 medium-12 columns">
 			<ul class="large-block-grid-3">
-			{% for press in site.posts %}
+			{% for press in site.posts limit: 6 %}
+				
 				<li class="large-3 columns">
 					<div>
 						<a href="{{site.baseurl}}{{press.url}}">
@@ -27,7 +28,9 @@
 		</div>
 		<div class="row more_press">
 			<div class="large-10 large-offset-1 columns">
-				<h3>MORE PRESS...</h3>
+				<a href="{{site.baseurl}}/press/">
+					<h3>MORE PRESS...</h3>
+				</a>
 			</div>
 		</div>
 	</div>

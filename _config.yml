@@ -14,5 +14,7 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-# Blog
+# Press
 excerpt_separator: <!--more-->
+paginate: 6
+paginate_path: "/press/page:num/"
