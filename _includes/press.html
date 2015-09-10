@@ -1,0 +1,34 @@
+<section class="press row fullWidth">
+	<a class="anchor" name="press"></a>
+	<!-- <img class="bg" src="{{site.baseurl}}/assets/MITAhome.png" /> -->
+	<div class="row">
+		<div class="large-10 large-offset-1 columns">
+			<h1>PRESS</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-12 medium-12 columns">
+			<ul class="large-block-grid-3">
+			{% for press in site.posts %}
+				<li class="large-3 columns">
+					<div>
+						<a href="{{site.baseurl}}{{press.url}}">
+							<h3 class="press_title">{{press.title}}</h3>
+						</a>
+						<span>{{press.date}}</span>
+						<p>
+							{{press.excerpt}} 
+							<span class="read_more">READ MORE</span>
+						</p>
+					</div>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+		<div class="row more_press">
+			<div class="large-10 large-offset-1 columns">
+				<h3>MORE PRESS...</h3>
+			</div>
+		</div>
+	</div>
+</section>

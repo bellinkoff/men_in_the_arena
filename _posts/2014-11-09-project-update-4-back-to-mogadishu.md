@@ -6,7 +6,7 @@ date:   2014-11-09 23:45:03
 
 Dear Backers,
 
-On Friday, Kickstarter cleared access to your generous contributions, and we’re especially grateful given the week we have in front of us. Brian and I are heading to Dallas to film with Saadiq, while a cinematographer colleague, Dru, is heading into Mogadishu for a few days to do some filming with the other national team player we’re building the film around. We will share his name in the coming weeks but first we need to guarantee his safety and we're exploring options to try and do just that. For now we'll refer to him as Saadiq's friend.
+On Friday, Kickstarter cleared access to your generous contributions, and we’re especially grateful given the week we have in front of us. <!--more--> Brian and I are heading to Dallas to film with Saadiq, while a cinematographer colleague, Dru, is heading into Mogadishu for a few days to do some filming with the other national team player we’re building the film around. We will share his name in the coming weeks but first we need to guarantee his safety and we're exploring options to try and do just that. For now we'll refer to him as Saadiq's friend.
 
 Dru’s mission has many logistical challenges and security risks that we’ve been working to overcome for weeks. We need to get him to and from a farming town 30 km outside of Mogadishu in one day. It’s a journey Saadiq’s friend makes once a week, but it’s a dangerous passage. In fact, it’s the same road Al Shabaab attacked African Union peacekeeping forces on to retaliate for the US drone strike that killed the Al-Qaeda linked Al Shabaab leader, Ahmed Godane, back on Sept. 1.
 
@@ -19,5 +19,3 @@ It's going to be a great week! If you haven't already please join us on [Faceboo
 Sincerely, 
 
 J.R. Biersmith
-
-<!--more-->

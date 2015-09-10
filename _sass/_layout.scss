@@ -235,7 +235,7 @@ section {
     }
 }
 
-.blog {
+.press_page {
     margin-top: $top_bar_height;
 }
 
@@ -255,6 +255,33 @@ section {
             overflow: hidden;
             margin-bottom: 15px;
         }
+    }
+}
+
+.press {
+    h3, .read_more, {
+        &:hover {       
+            transition: all 0.5s ease;
+            color: $brand-color;
+            cursor: pointer;
+        }
+    }
+    ul {
+        list-style-type: none;
+        li {
+            div {
+                padding: 20px;  
+                h3.press_title {
+                    border-bottom: 1px solid white;
+                }
+            }
+        }
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .more_press {
+        text-align: center;
     }
 }
 
@@ -356,7 +383,7 @@ section {
     font-size: 20px;
 }
 
-.blog, .post {
+.press_page, .post {
     padding-top: 20px;
 }
 
