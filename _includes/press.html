@@ -16,7 +16,7 @@
 						<a href="{{site.baseurl}}{{press.url}}">
 							<h3 class="press_title">{{press.title}}</h3>
 						</a>
-						<span>{{press.date}}</span>
+						<span>{{press.date | date: "%b %-d, %Y"}}</span>
 						<p>
 							{{press.excerpt}} 
 							<a href="{{site.baseurl}}{{press.url}}">
