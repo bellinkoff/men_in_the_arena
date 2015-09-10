@@ -235,24 +235,6 @@ section {
     }
 }
 
-.press_page {
-    margin-top: $top_bar_height;
-    .pagination {
-        text-align: center;
-        .fi-play {
-            font-size: 20px;
-        }
-        .previous .fi-play {
-            &:before {
-                -ms-transform: rotate(180deg); /* IE 9 */
-                -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-                transform: rotate(180deg);
-            }
-        }
-    }
-}
-
-
 .stills {
     .gallery {
         display: flex;
@@ -273,6 +255,7 @@ section {
 
 .press {
     h3, .read_more, {
+        color: white;
         &:hover {       
             transition: all 0.5s ease;
             color: $brand-color;
@@ -295,6 +278,23 @@ section {
     }
     .more_press {
         text-align: center;
+    }
+}
+
+.press_page {
+    margin-top: $top_bar_height;
+    .pagination {
+        text-align: center;
+        .fi-play {
+            font-size: 20px;
+        }
+        .previous .fi-play {
+            &:before {
+                -ms-transform: rotate(180deg); /* IE 9 */
+                -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+                transform: rotate(180deg);
+            }
+        }
     }
 }
 
