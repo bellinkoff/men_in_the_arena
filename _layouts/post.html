@@ -8,8 +8,22 @@ layout: default
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
+  <div class="large-12 columns">
+  	<a href="{{site.baseurl}}/press/">
+  		<h6>Back to Press</h6>
+  	</a>
+  </div>
+
+  {% if page.linkout %} 
+  	<div class="large-12 columns linkout">
+  		<p>
+  			(The following is an exerpt from the original piece, found <a href="{{ page.linkout }}">here</a>.)
+  		</p>
+  	</div>
+  {% endif %}
+
   <article class="post-content">
-    {{ content }}
+    {{ content }} {% if page.source %}(<a href="{{ page.linkout }}">{{page.source}}</a>)  {% endif %}
   </article>
 
 </div>

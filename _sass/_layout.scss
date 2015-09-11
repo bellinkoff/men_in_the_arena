@@ -253,15 +253,16 @@ section {
     }
 }
 
-.press {
-    h3, .read_more, {
-        color: white;
-        &:hover {       
-            transition: all 0.5s ease;
-            color: $brand-color;
-            cursor: pointer;
-        }
+.press h3, .press .read_more, .post h6 {
+    color: white;
+    &:hover {       
+        transition: all 0.5s ease;
+        color: $brand-color;
+        cursor: pointer;
     }
+}
+
+.press {
     ul {
         list-style-type: none;
         li {
@@ -319,18 +320,18 @@ section {
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    /*padding: $spacing-unit 0;*/
+    padding: 10px;
+    text-align: center;
+    p {
+        font-size: 11px;
+        margin: 0px;
+    }
 }
 
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
 }
 
 .footer-col-wrapper {
@@ -394,6 +395,17 @@ section {
 
 .page-heading {
     font-size: 20px;
+}
+
+.post {
+    h6 {
+        color: white;
+    }
+    .linkout {
+        color: $grey-color;
+        font-style: italic;
+    }
+
 }
 
 .press_page, .post {
