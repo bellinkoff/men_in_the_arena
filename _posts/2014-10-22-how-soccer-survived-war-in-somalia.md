@@ -3,11 +3,11 @@ layout: post
 title:  "How Soccer Survived War in Somalia"
 linkout: "http://www.mprnews.org/story/2014/10/22/daily-circuit-somalia-soccer"
 author: "MPR News Staff"
-source: "MPR News"
+source: "MPR, The Daily Circuit"
 ---
 
-Filmmaker J.R. Biersmith spent a year following two friends who played for the national soccer team in Somalia. He's working on a documentary that will tell the story of their dream to one day play professionally - in the face of some steep odds.
+"Biersmith joins The Daily Circuit to talk about the Somali national team, the process of filming..."
 
-It's a story, in part, about how and why soccer has survived in Somalia even while the country has been at war. Biersmith is just [wrapping up a Kickstarter](https://www.kickstarter.com/projects/748917089/men-in-the-arena) campaign to fund the project.
+<!--more-->
 
-Biersmith joins The Daily Circuit to talk about the Somali national team, the process of filming the documentary and what he learned along the way.
+On October 22, 2014 Director J.R. Biersmith joined Minnesota Public Radio's morning show. Biersmith and the host discuss the Kickstarter campaign, Saadiq's progress in the U.S. and filming in Mogadishu. Minneapolis is the home of the largest Somali population in the United States.
