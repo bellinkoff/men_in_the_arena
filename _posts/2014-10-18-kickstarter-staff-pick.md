@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kickstarter Staff Pick"
+title:  "Kickstarter Staff Pick, KSR"
 linkout: "https://twitter.com/ksr_staff/status/523656622896599040"
 author: "Kickstarter Staff"
 source: "Kickstarter"

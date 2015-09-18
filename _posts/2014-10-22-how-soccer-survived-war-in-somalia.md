@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How Soccer Survived War in Somalia"
+title:  "MPR, The Daily Circuit"
 linkout: "http://www.mprnews.org/story/2014/10/22/daily-circuit-somalia-soccer"
 author: "MPR News Staff"
 source: "MPR, The Daily Circuit"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "BBC Outlook"
+title:  "BBC Outlook, Matthew Bannister & Sue Waldram"
 linkout: "http://www.bbc.co.uk/programmes/p02bggp9"
 author: "Matthew Bannister & Sue Waldram"
 source: "BBC Outlook"
