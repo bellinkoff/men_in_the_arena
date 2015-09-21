@@ -104,6 +104,11 @@ a {
         border-bottom: 2px solid $hover-color;
     }
 }
+.site-header nav a.soon {
+    &:hover {
+        border-bottom: none;
+    }
+}
 
 
 

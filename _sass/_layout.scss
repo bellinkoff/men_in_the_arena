@@ -99,6 +99,19 @@ h1, h2, h3, h4, p, .site-nav a {
         }
     }
 
+    .page-link.soon {
+        cursor: default;
+        color: gray;
+        &:hover {
+            font-size: 0px;
+        }
+        &:hover:before { 
+            font-size: $base-font-size;
+            content: attr(data-hover);
+            color: red;
+        }
+    }
+
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;

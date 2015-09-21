@@ -8,6 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/men_in_the_arena" # the subpath of your site, e.g. /blog/
 # url: "localhost:4000"
 url: "http://bellinkoff.github.io" # the base hostname & protocol for your site
+# url: "http://www.meninthearena.com" # production
 twitter_username: jekyllrb
 github_username:  jekyll
 
