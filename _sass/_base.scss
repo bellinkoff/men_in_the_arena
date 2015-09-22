@@ -99,7 +99,8 @@ a {
     
 }
 
-.site-header nav a {
+.site-header nav a span {
+    font-size: 1.1em;
     &:hover {
         border-bottom: 2px solid $hover-color;
     }

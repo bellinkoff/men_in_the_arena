@@ -9,7 +9,9 @@
 	<div class="row">
 		<div class="large-12 medium-12 columns">
 			<ul class="large-block-grid-3">
-			{% for press in site.posts limit: 6 %}
+			{% assign $limit = 6 %}
+			{% assign $k = 1 %}
+			{% for press in site.posts limit: $limit %}
 				
 				<li class="large-3 columns">
 					<div>
@@ -25,9 +27,15 @@
 						</p>
 					</div>
 				</li>
+				{% assign $k = $k | plus: 1 %}
 			{% endfor %}
 
-			<!-- need to add <li> elements to fill out space in case there are less than 6 in site.posts.length. Should be something like: site posts length < 6 then 6 - site.posts.length and add that many <li> elements -->
+			<!-- Filling out empty press slots so it doesn't align right -->
+			{% if $k <= $limit %}
+				{% for num in ($k...$limit) %}
+					<li class="large-3 columns"></li>
+				{% endfor %}
+			{% endif %}
 
 			</ul>
 		</div>
