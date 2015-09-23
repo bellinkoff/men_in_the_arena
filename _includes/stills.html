@@ -5,15 +5,16 @@
 			<h1>STILLS</h1>
 		</div>
 	</div>
-	<div class="gallery">
+	<div class="large-12 columns gallery">
 		{% assign $i = 1 %}
 		{% for still in site.pages %}
 			{% if still.type == "still" %}
-				<a href="{{site.baseurl}}/assets/stills/{{still.image}}" data-lightbox="stills_collection" data-title="{{still.title}}">
-					<div class="gallery_item">
+				<div class="gallery_item">
+					<a href="{{site.baseurl}}/assets/stills/{{still.image}}" data-lightbox="stills_collection" data-title="{{still.title}}">
 						<img src="assets/stills/{{still.thumbnail}}" alt="{{still.title}}"/>
-					</div>
-				</a>
+					</a>
+				</div>
+				
 				{% assign $i = $i | plus: 1 %}
 			{% endif %}
 		{% endfor %}
