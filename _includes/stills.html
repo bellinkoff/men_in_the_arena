@@ -5,18 +5,27 @@
 			<h1>STILLS</h1>
 		</div>
 	</div>
-	<div class="large-12 columns gallery">
+	{% assign $length = 0 %}
+	{% for pg in site.pages %}
+		{% if pg.type == "still" %}
+			{% assign $length = $length | plus: 1 %}
+		{% endif %}
+	{% endfor %}
+	<div class="gallery">
 		{% assign $i = 1 %}
+		<!-- <ul class="clearing-thumbs"> -->
 		{% for still in site.pages %}
 			{% if still.type == "still" %}
+			<!-- <li> -->
 				<div class="gallery_item">
 					<a href="{{site.baseurl}}/assets/stills/{{still.image}}" data-lightbox="stills_collection" data-title="{{still.title}}">
 						<img src="assets/stills/{{still.thumbnail}}" alt="{{still.title}}"/>
 					</a>
 				</div>
-				
+			<!-- </li>			 -->
 				{% assign $i = $i | plus: 1 %}
 			{% endif %}
 		{% endfor %}
+		</ul>
 	</div>
 </section>
