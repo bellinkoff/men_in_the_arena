@@ -285,12 +285,17 @@ section {
         padding-top: 25px;
         /*height: 550px;*/
         display: flex;
-        /*margin: 100px 0px;*/
         h2 {
             /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
-            font-size: 1.2rem;
+            font-size: 1rem;
+            text-align: center;
         }
     }
+
+    .quote {
+        text-align: center;
+    }
+
     .quote, .byline {
         font-family: 'Arimo', 'sans-serif';
     }
