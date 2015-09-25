@@ -262,7 +262,7 @@ section {
         display: block;
         /*margin: auto;*/
         margin: 15px auto;
-        width: 250px;
+        width: 210px;
         /*max-height: 600px;*/
         filter: grayscale(100%);
         -webkit-filter: grayscale(100%); /* For Webkit browsers */
@@ -326,12 +326,8 @@ section {
         -ms-align-items: flex-start;
         align-items: flex-start;*/
 
-       /* a {
-            display: block;
-        }*/
-
         .gallery_item {
-            width: 400px !important;
+            width: 400px;
             max-height: 200px;
             overflow: hidden;
             margin: auto;
