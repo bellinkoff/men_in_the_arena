@@ -10,4 +10,4 @@ source: "BBC Outlook"
 
 <!--more-->
 
-BBC Outlook is a one hour program that focuses on true life stories from around the globe. Produce Sue Waldram spoke to Director J.R. Biersmith from the NPR studios in Los Angeles, California and Saadiq Mohamud from Cake Studios in Dallas, Texas. At the 13:11 mark, the interview begins with Saadiq's.
+BBC Outlook is a one hour program that focuses on true life stories from around the globe. Producer Sue Waldram spoke to Director J.R. Biersmith from the NPR studios in Los Angeles, California and Saadiq Mohamud from Cake Studios in Dallas, Texas. At the 13:11 mark, the interview begins.
